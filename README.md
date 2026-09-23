@@ -1,5 +1,11 @@
 # ComfyUI-RogoAI-IDeval — CSIM / 本人一致度の評価
 
+ComfyUI custom nodes and a workflow for evaluating face identity similarity using cosine similarity (CSIM), identity consistency across video frames, and facial skin-color changes.
+
+Features include reference building from multiple photos, threshold calibration, image and video evaluation, visual reports, and JSON output. The default face-embedding backend is InsightFace `buffalo_l`.
+
+Similarity scores are not probabilities of identity. Pretrained models have separate licensing terms; see the model usage notes below. Setup and usage instructions are currently provided in Japanese.
+
 「その顔・何点？」シリーズの付録で紹介した、顔の本人一致度と動画内の本人・肌色の安定性を調べるComfyUIワークフローです。
 
 独自コードはMITライセンスです。リポジトリの [LICENSE](LICENSE) を参照してください。使用する第三者ライブラリ・学習済みモデルには、それぞれの利用条件が適用されます。
