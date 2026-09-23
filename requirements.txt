@@ -1,0 +1,9 @@
+# Install into the existing ComfyUI Python environment.
+# Choose ONE ONNX Runtime package separately (see README).
+# facenet-pytorch is required for the visual average face; see --no-deps instructions.
+matplotlib
+insightface==1.0.1
+scikit-image
+opencv-python
+requests
+tqdm
